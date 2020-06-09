@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://george123:george123@udemytutorialdevconnector-viati.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtsecret": "shhhhhh",
+  "githubClientid": "4140799de62dcdfeed78",
+  "githubSecret": "95702d45d5d6503d35e4716042a7f29436e9634b"
+}
