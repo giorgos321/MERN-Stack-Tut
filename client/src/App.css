@@ -2,7 +2,7 @@
 :root {
   --primary-color: #fcc102;
   --dark-color: #343a40;
-  --light-color: #f4f4f4;
+  --light-color: #eccf6ea8;
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
@@ -137,6 +137,9 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border-radius: 10px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
 }
 
 .badge {
@@ -154,6 +157,7 @@ img {
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
+  border-radius: 10px;
 }
 
 .btn-primary,
@@ -170,6 +174,7 @@ img {
 .alert-light {
   background: var(--light-color);
   color: #333;
+  margin: 7px 17px;
 }
 
 .btn-dark,
@@ -207,6 +212,7 @@ img {
 
 .btn:hover {
   opacity: 0.8;
+  transform: scale(1.15);
 }
 
 .bg-light,
@@ -358,6 +364,7 @@ button {
   padding: 1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
+  background: #59c7b82e;
 }
 
 /* Profile Page */
@@ -396,6 +403,7 @@ button {
 .profile-about {
   grid-area: about;
   text-align: center;
+  margin: 0px;
 }
 
 .profile-about .skills {
@@ -483,11 +491,12 @@ button {
 }
 
 .post .comment-count {
-  background: var(--light-color);
-  color: var(--primary-color);
+  background: #fc8102;
+  color: #333;
   padding: 0.1rem 0.2rem;
   border-radius: 5px;
   font-size: 0.8rem;
+  margin-left: 10px;
 }
 
 .post .post-date {
@@ -517,6 +526,7 @@ button {
 
   .lead {
     font-size: 1rem;
+    color: black;
   }
 
   /* Navbar */
