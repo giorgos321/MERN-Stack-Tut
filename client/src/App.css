@@ -1,6 +1,6 @@
 /* Global Styles */
 :root {
-  --primary-color: #17a2b8;
+  --primary-color: #fcc102;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -458,12 +458,20 @@ button {
   background: var(--primary-color);
   padding: 0.5rem;
 }
-
+.posts {
+  margin: 18px;
+}
 .post {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-gap: 2rem;
   align-items: center;
+  border-radius: 35px;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.post:hover {
+  transform: scale(1.1);
 }
 
 .post > div:first-child {
